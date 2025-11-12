@@ -1,7 +1,4 @@
-Below is a **copy-pasteable** `README.md` you can drop into your repo.
-I updated the author to **Yeabsira Girma** and included **clear step-by-step instructions** for setup, running notebooks, and deploying the Streamlit dashboard—without changing any of your completed work.
 
----
 
 # 🌞 Solar Data Discovery — Week 0 Challenge (10 Academy KAIM)
 
@@ -207,51 +204,5 @@ Open the URL (e.g., `http://localhost:8501`) shown in your terminal.
 * **Cleaning impact**: module output vs `Cleaning` flag
 * **Ranking bar chart**: mean GHI (Benin > Togo > Sierra Leone)
 
----
 
-## ✅ Results Summary
-
-* **Top Candidate:** **Benin** — highest & most stable GHI
-* **Second:** **Togo** — consistent, slightly lower mean
-* **Third:** **Sierra Leone** — more variability; humidity effects
-* The methodology is **replicable**, **defensible**, and **visual**.
-
----
-
-## 🧯 Troubleshooting
-
-* **ModuleNotFoundError**: re-activate venv & reinstall:
-
-  ```powershell
-  .\.venv\Scripts\Activate.ps1
-  pip install -r requirements.txt
-  ```
-* **Streamlit “Stopping…”**: keep the terminal open; don’t Ctrl+C.
-* **CSV not found**: upload via the app sidebar or verify files under `data/clean/`.
-* **SciPy build issue**: ensure **Python 3.11 (64-bit)**, then:
-
-  ```powershell
-  pip install --upgrade pip wheel setuptools
-  pip install numpy scipy
-  ```
-
----
-
-## 📦 Branching & Merge (Optional but Professional)
-
-```powershell
-# merge the dashboard safely
-git switch main
-git pull origin main
-git merge --no-ff dashboard-dev -m "Merge bonus: Streamlit dashboard"
-git push origin main
-```
-
----
-
-## 📜 License
-
-Add a `LICENSE` file if you want to explicitly license your work (e.g., MIT).
-
----
 
