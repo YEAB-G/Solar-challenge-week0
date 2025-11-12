@@ -176,5 +176,4 @@ if "GHI" in all_df.columns:
 else:
     st.warning("GHI column not found in the data.")
 
-st.markdown("---")
-st.caption("Uses cleaned datasets produced in Task 2 (no project structure changes).")
+
