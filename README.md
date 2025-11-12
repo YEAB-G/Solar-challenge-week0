@@ -5,6 +5,19 @@
 **Author:** **Yeabsira Girma**
 **Cohort:** KAIM – Week 0 (MoonLight Energy Solutions)
 
+
+
+---
+
+## 🚀 Live Dashboard
+
+**View the deployed Streamlit App here:**
+
+👉 [https://dashbord-development-week0.streamlit.app/](https://dashbord-development-week0.streamlit.app/)
+
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://dashbord-development-week0.streamlit.app/)
+
+
 ---
 
 ## 🧭 Project Overview
